@@ -27,3 +27,4 @@ mongoose
 });
 //Running the backend server RUN: npm run dev
 //Enure that the node is installed in the system to make the project run!!
+// Managed to connect the MongoDB DataBase to the source code
