@@ -10,9 +10,6 @@ app.get('/', (request, response) => {
     console.log(request)
     return response.status(234).send("Welcome to my Book Store!")});
 
-app.listen(PORT, () =>{
-    console.log('App is listening to the port: ${PORT}');
-});
 
 mongoose
 .connect(mongoDBURL)
