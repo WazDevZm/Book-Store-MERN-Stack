@@ -4,3 +4,4 @@ export const mongoDBURL =
 'mongodb+srv://wazingwa:Hillcrest542!@cluster0.geyos.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0'
 
 //DataBase Created using MongoDB
+//Successfully ran the MongoDB database without errors, all logging correctly as expected
