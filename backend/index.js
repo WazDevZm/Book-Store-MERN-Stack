@@ -2,6 +2,11 @@ import express, { request, response } from "express";
 import { PORT, mongoDBURL} from "./config.js";
 import mongoose from "mongoose";
 
+//Implementing a book store system using the MERN stack
+//MongoDB
+//Express Js
+//React Js
+//Node Js
 
 
 const app = express();
