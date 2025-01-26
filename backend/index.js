@@ -1,4 +1,4 @@
-import express, { request } from "express";
+import express, { request, response } from "express";
 import { PORT, mongoDBURL} from "./config.js";
 import mongoose from "mongoose";
 
@@ -10,6 +10,15 @@ app.get('/', (request, response) => {
     console.log(request)
     return response.status(234).send("Welcome to my Book Store!")});
 
+    // Route for Save a new Book
+app.post('./books', async(request, response) =>{
+    try {
+
+    } catch (error) {
+        console.log(error.message);
+        response.status(500).send({message: error.message});
+    }
+});
 
 mongoose
 .connect(mongoDBURL)
