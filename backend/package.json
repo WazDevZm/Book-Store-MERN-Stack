@@ -10,7 +10,7 @@
   "author": "WazDevZM",
   "license": "ISC",
   "type": "module",
-  "description": "This is Book Store",
+  "description": "This is Book Store, learning on the goal!",
   "dependencies": {
     "config": "^3.3.12",
     "express": "^4.21.2",
